@@ -42,6 +42,19 @@ npm start
 ```
 ---
 
+### Screenshots
+
+check [Image 1](/backEnd).
+
+![alt text](https://github.com/bidyashish/EQworks_Test/blob/master/screeshots/im1.png?raw=true)
+
+check [Image 2](/backEnd).
+
+![alt text](https://github.com/bidyashish/EQworks_Test/blob/master/screeshots/im2.png?raw=true)
+
+
+
+
 
 ---
 Bidyashish Kumar [@Bidyashish](https://www.bidyashish.com).
