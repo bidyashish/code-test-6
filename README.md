@@ -1,12 +1,12 @@
 # EQworks test | Nodejs| ReactJS | Javascript | React JS | Rate limiter | Highcharts
-> A project demonstrating 
+> A project demonstrating Full stack data visualization using Node.js | Express.Js | React. JS | Highcharts.js
 
 > Click :star:if you like it. Submiting Pull Request are highly appreciated. Check me [@Bidyashish](https://www.bidyashish.com).
 
 
 ---
 
-### Getting Started Back-End
+### Getting Started 
 
 In order to the following example 
 
@@ -44,16 +44,13 @@ npm start
 
 ### Screenshots
 
-check [Image 1](/backEnd).
+check [Image 1](/screeshots/im1.png).
 
 ![alt text](https://github.com/bidyashish/EQworks_Test/blob/master/screeshots/im1.png?raw=true)
 
-check [Image 2](/backEnd).
+check [Image 2](/screeshots/img2.png).
 
-![alt text](https://github.com/bidyashish/EQworks_Test/blob/master/screeshots/im2.png?raw=true)
-
-
-
+![alt text](https://github.com/bidyashish/EQworks_Test/blob/master/screeshots/img2.png?raw=true)
 
 
 ---
