@@ -1,4 +1,4 @@
-# EQworks test | Nodejs| ReactJS | Javascript | React JS | Rate limiter | Highcharts
+# EQworks test |Javascript | React JS | Rate limiter | Highcharts
 > A project demonstrating Full stack data visualization using Node.js | Express.Js | React. JS | Highcharts.js
 
 > Click :star:if you like it. Submiting Pull Request are highly appreciated. Check me [@Bidyashish](https://www.bidyashish.com).
@@ -12,7 +12,7 @@ In order to the following example
 
 
 ---
-> Rate limited default is 
+> Express JS application using postgress Database and Rate limiter
 > create `.env` file nad add 
 
 ```
