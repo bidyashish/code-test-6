@@ -14,7 +14,7 @@ TIMER:  Maximum number of MAX_ALLOWED_REQUEST in a given time frame
 In 
 
 */
-const MAX_ALLOWED_REQUEST = 4000; // No of Incoming API Requests
+const MAX_ALLOWED_REQUEST = 100; // No of Incoming API Requests
 const TIMER = 15 * 1000; // In Seconds
 
 const app = express();
