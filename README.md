@@ -27,7 +27,7 @@ PGHOST=work-samples-db.cx4wctygygyq.us-east-1.rds.amazonaws.com
 PGPORT=5432
 PGDATABASE=work_samples
 PGUSER=readonly
-PGPASSWORD=w2UIO@#bg532!
+PGPASSWORD= [Your password ]
 ```
 
 check [Back End](/backEnd).
