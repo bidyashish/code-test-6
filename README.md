@@ -1,7 +1,7 @@
 # EQworks test |Javascript | React JS | Rate limiter | Highcharts
 > A project demonstrating Full stack data visualization using Node.js | Express.Js | React. JS | Highcharts.js
 
-> Click :star:if you like it. Submiting Pull Request are highly appreciated. Check me [@Bidyashish](https://www.bidyashish.com).
+> Click :star:if you like it. Check me [@Bidyashish](https://www.bidyashish.com).
 
 Test requirements: https://gist.github.com/woozyking/126fdf4c72fdf65a3504e5681a1ce715
 
