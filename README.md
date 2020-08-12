@@ -3,24 +3,31 @@
 
 > Click :star:if you like it. Submiting Pull Request are highly appreciated. Check me [@Bidyashish](https://www.bidyashish.com).
 
+Test requirements: https://gist.github.com/woozyking/126fdf4c72fdf65a3504e5681a1ce715
 
 ---
 
 ### Getting Started 
 
 In order to the following example 
- Test live demo at : https://app.bidyashish.com/
+ Test live
+
+ Backend: Demo at: https://sheltered-mesa-51060.herokuapp.com
+
+ Frontend: Demo at: https://jolly-yalow-18c1a4.netlify.app
+
+ Rate Limit API is at 100 Request in 15 seconds per IP address
 
 ---
 > Express JS application using postgress Database and Rate limiter
 > create `.env` file nad add 
 
 ```
-PGHOST={your DB link ....rds.amazonaws.com}
+PGHOST=work-samples-db.cx4wctygygyq.us-east-1.rds.amazonaws.com
 PGPORT=5432
 PGDATABASE=work_samples
 PGUSER=readonly
-PGPASSWORD={your password}
+PGPASSWORD=w2UIO@#bg532!
 ```
 
 check [Back End](/backEnd).
@@ -30,6 +37,8 @@ cd backEnd
 npm run dev
 
 ```
+Demo at: https://sheltered-mesa-51060.herokuapp.com
+---
 **[⬆ Back to Top](#Getting-Started)**
 ---
 
@@ -39,7 +48,9 @@ check [Front End](/frontEnd).
 cd frontEnd
 
 npm start
+
 ```
+Demo at: https://jolly-yalow-18c1a4.netlify.app
 ---
 
 ### Screenshots
