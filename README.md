@@ -23,11 +23,11 @@ In order to the following example
 > create `.env` file nad add 
 
 ```
-PGHOST=work-samples-db.cx4wctygygyq.us-east-1.rds.amazonaws.com
-PGPORT=5432
-PGDATABASE=work_samples
-PGUSER=readonly
-PGPASSWORD= [Your password ]
+PGHOST={your DB link ....rds.amazonaws.com}
+PGPORT=5432	 
+PGDATABASE=work_samples	 
+PGUSER=readonly	 
+PGPASSWORD={your password}
 ```
 
 check [Back End](/backEnd).
