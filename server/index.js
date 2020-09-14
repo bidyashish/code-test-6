@@ -61,6 +61,10 @@ app.get("/", (req, res) => {
 	res.send("Welcome to Rate Limit API 😎 ");
 });
 
+app.get("/ping", (req, res) => {
+	res.send("Success 😎 ");
+});
+
 app.get(
 	"/events/hourly",
 	(req, res, next) => {
