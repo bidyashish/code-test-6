@@ -1,9 +1,8 @@
-# EQworks test |Javascript | React JS | Rate limiter | Highcharts
-> A project demonstrating Full stack data visualization using Node.js | Express.Js | React. JS | Highcharts.js
+# Full Stack Application |Javascript | React JS | Rate limiter | Highcharts | Kafka JS
+> A project demonstrating Full stack data visualization using Node.js | Express.Js | React. JS | Highcharts.js | Kafka JS
 
 > Click :star:if you like it. Check me [@Bidyashish](https://www.bidyashish.com).
 
-Test requirements: https://gist.github.com/woozyking/126fdf4c72fdf65a3504e5681a1ce715
 
 ---
 
@@ -12,7 +11,7 @@ Test requirements: https://gist.github.com/woozyking/126fdf4c72fdf65a3504e5681a1
 In order to the following example 
  Test live
 
- Backend: Demo at: https://sheltered-mesa-51060.herokuapp.com
+ Backend: Demo at: https://node-jn4e.onrender.com
 
  Frontend: Demo at: https://jolly-yalow-18c1a4.netlify.app
 
@@ -23,29 +22,26 @@ In order to the following example
 > create `.env` file nad add 
 
 ```
-PGHOST={your DB link ....rds.amazonaws.com}
+PGHOST={your DB link }
 PGPORT=5432	 
-PGDATABASE=work_samples	 
+PGDATABASE={DB Name}	 
 PGUSER=readonly	 
 PGPASSWORD={your password}
 ```
 
-check [Back End](/backEnd).
+check [Server](/server).
 ```
-cd backEnd
+cd server
 
 npm run dev
 
 ```
-Demo at: https://sheltered-mesa-51060.herokuapp.com
----
-**[⬆ Back to Top](#Getting-Started)**
----
+Demo at: https://node-jn4e.onrender.com
 
 > A React application utilizing React Bootsrap, React Highcharts, React Hooks and API for show Vizualization
-check [Front End](/frontEnd).
+check [client](/client).
 ```
-cd frontEnd
+cd client
 
 npm start
 
