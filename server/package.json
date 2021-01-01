@@ -8,22 +8,14 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EQWorks/ws-product-nodejs.git"
-  },
-  "author": "woozyking",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EQWorks/ws-product-nodejs/issues"
-  },
-  "homepage": "https://github.com/EQWorks/ws-product-nodejs#readme",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.15.3",
-    "pg": "^6.2.4"
+    "pg": "^8.11.3"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^3.0.2"
   },
   "engines": {
     "node": "10.x"
