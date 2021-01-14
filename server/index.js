@@ -1,5 +1,7 @@
 const express = require("express");
 const pg = require("pg");
+require('dotenv').config()
+
 /* 
 Import Custom rate Limit 
 */
@@ -25,7 +27,8 @@ const pool = new pg.Pool({
 	host: process.env.PGHOST,
 	database: process.env.PGDATABASE,
 	password: process.env.PGPASSWORD,
-	port: process.env.PGPORT
+	port: process.env.PGPORT,
+	ssl: true
 });
 
 /* 
@@ -40,6 +43,7 @@ app.use(
 );
 
 const queryHandler = (req, res, next) => {
+	console.log( process.env.PGUSER);
 	pool
 		.query(req.sqlQuery)
 		.then((r) => {
@@ -54,7 +58,7 @@ app.use(function (req, res, next) {
 });
 
 app.get("/", (req, res) => {
-	res.send("Welcome to EQ Works 😎");
+	res.send("Welcome to Rate Limit API 😎 ");
 });
 
 app.get(
