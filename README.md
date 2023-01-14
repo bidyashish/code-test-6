@@ -1,5 +1,10 @@
-# Full Stack Application |Javascript | React JS | Rate limiter | Highcharts | Kafka JS
+# Full Stack Application |Javascript | React JS | Rate limiter | Highcharts | Kafka JS | Micro Service
 > A project demonstrating Full stack data visualization using Node.js | Express.Js | React. JS | Highcharts.js | Kafka JS
+
+Data Input:
+User Analytics Geolocation in Canada
+Hourly Events
+Hourly 
 
 > Click :star:if you like it. Check me [@Bidyashish](https://www.bidyashish.com).
 
@@ -48,6 +53,13 @@ npm start
 ```
 Demo at: https://jolly-yalow-18c1a4.netlify.app
 ---
+
+Dependency Kafka Micro Service
+Install Kafka service machine, Default port 9092
+
+```
+Docker Kafka broker 
+```
 
 ### Screenshots
 

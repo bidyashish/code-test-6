@@ -2,26 +2,16 @@ const express = require("express");
 const pg = require("pg");
 require('dotenv').config()
 
-/* 
-Import Custom rate Limit 
-*/
+
 const rateLimit = require("./rateLimit");
 const { response } = require("express");
 
-/* 
-MAX_ALLOWED_REQUEST is number is imcoming requests
 
-TIMER:  Maximum number of MAX_ALLOWED_REQUEST in a given time frame
-
-In 
-
-*/
 const MAX_ALLOWED_REQUEST = 100; // No of Incoming API Requests
 const TIMER = 15 * 1000; // In Seconds
 
 const app = express();
-// configs come from standard PostgreSQL env vars
-// https://www.postgresql.org/docs/9.6/static/libpq-envars.html
+
 const pool = new pg.Pool({
 	user: process.env.PGUSER,
 	host: process.env.PGHOST,
@@ -137,6 +127,7 @@ app.get(
 	},
 	queryHandler
 );
+
 
 app.listen(process.env.PORT || 5555, (err) => {
 	if (err) {
