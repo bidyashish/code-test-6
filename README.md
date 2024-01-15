@@ -1,13 +1,15 @@
 # Full Stack Application |Javascript | React JS | Rate limiter | Highcharts | Kafka JS | Micro Service
 > A project demonstrating Full stack data visualization using Node.js | Express.Js | React. JS | Highcharts.js | Kafka JS
+  | Postgres
 
-Data Input:
+Data Input
 User Analytics Geolocation in Canada
 Hourly Events
 Hourly 
 
 > Click :star:if you like it. Check me [@Bidyashish](https://www.bidyashish.com).
 
+Event-driven Full stack application.
 
 ---
 
@@ -23,7 +25,7 @@ In order to the following example
  Rate Limit API is at 100 Request in 15 seconds per IP address
 
 ---
-> Express JS application using postgress Database and Rate limiter
+> Express JS application using postgres Database and Rate limiter
 > create `.env` file nad add 
 
 ```
